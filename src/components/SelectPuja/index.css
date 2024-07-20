@@ -1,0 +1,173 @@
+.select-puja-container {
+  width: 100%;
+  padding: 8%;
+  border: 1px solid black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.select-puja-container img {
+  width: 650px;
+  height: 460px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.select-puja-container h1 {
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.select-puja-container p {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.select-puja {
+  display: flex;
+  flex-direction: column;
+}
+.select-package {
+  width: 420px;
+  height: 50px;
+  background-color: rgb(0 189 104);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+
+.rightarrow {
+  margin-left: 6px;
+}
+
+.select-puja-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.span-container {
+  display: flex;
+  flex-direction: column;
+}
+.sections {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  border: 1px solid black;
+  padding: 10px;
+  background-color: #feecdc;
+  margin: 20px;
+}
+
+.section1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  align-items: center;
+
+  justify-content: center;
+}
+.section2 {
+  display: flex;
+  flex-direction: column;
+}
+.section2 p {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.different-packages {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.select-puja-package {
+  padding: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.select-puja-package-section1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 150px;
+
+  padding: 15px;
+  background-color: #feecdc;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.select-puja-package-section1 span {
+  font-size: 28px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.select-puja-package-section1 p {
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 10px;
+  font-weight: 500;
+}
+.select-puja-package-section2 {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
+
+.points {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.points img {
+  width: 30px;
+  height: 28px;
+  margin-right: 8px;
+}
+
+.points p {
+  font-size: 18px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 15px;
+}
+
+.puja-package-button {
+  width: 300px;
+  height: 50px;
+  background-color: rgb(0 189 104);
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  text-decoration: none; 
+}
+
+.select-puja-button-package {
+  display: flex;
+  justify-content: center;
+}

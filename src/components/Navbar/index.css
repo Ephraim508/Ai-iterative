@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 20vh;
+}
+
+.navmaincontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffff;
+  justify-content: space-between;
+
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.navleft {
+  display: flex;
+  align-items: center;
+}
+.navleft img {
+  width: 140px;
+  height: 45px;
+}
+.heading-nav {
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.navmiddle {
+  list-style-type: none;
+  display: flex;
+  text-decoration: none;
+}
+
+.navmiddle a {
+  text-decoration: none; /* Remove text decoration from links */
+}
+
+.navmiddle li {
+  margin-right: 15px;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: none;
+}
+
+
+
+.user {
+  width: 32px;
+  height: 53px;
+}
+
+.sri-mandir-logo {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+}
